@@ -1,0 +1,10 @@
+{% load account %}{% load i18n %}{% blocktrans %} 
+Dear {{full_name}},
+
+Your account has been successfully registered with us, please verify your email by following this link:
+
+{{activate_url}}
+
+Thank you for using {{current_site}}!
+
+{% endblocktrans %}

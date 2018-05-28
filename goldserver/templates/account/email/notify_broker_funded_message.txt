@@ -1,0 +1,9 @@
+{% load i18n %}{% load humanize %}{% blocktrans %} 
+Dear {{ full_name }},
+
+{{ funder }} of {{ company_name }} has funded you with the amount of {{ currency }} {{ amount }}, please login to your account, go to the dashboardand approve/decline the funding transaction.
+
+
+Thank you for using {{ current_site }}!
+
+{% endblocktrans %}

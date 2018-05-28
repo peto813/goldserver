@@ -1,0 +1,9 @@
+{% load account %}{% load i18n %}{% load humanize %}{% blocktrans %} 
+Dear {{full_name}},
+
+
+You have {{accept_status}} {{ currency }} {{ amount }} as funding from your company.
+ 
+Thank you for using {{current_site}}!
+
+{% endblocktrans %}

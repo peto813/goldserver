@@ -1,0 +1,1 @@
+{% load i18n %}{% autoescape off %}{% blocktrans %}You have {{accept_status}} funding{% endblocktrans %}{% endautoescape %}
