@@ -26,7 +26,7 @@ pypiwin32==223
 python-dateutil==2.7.3
 python-openid==2.2.5
 pytz==2018.4
-pywin32==223
+pywin32==301
 requests==2.18.4
 requests-oauthlib==0.8.0
 six==1.11.0
